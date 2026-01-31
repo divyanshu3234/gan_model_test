@@ -1,1 +1,2 @@
-# gan_-model_training# gan_-model_training
+# gan_model_train
+**GANs** and **Diffusion Models** are premier, yet distinct, generative AI techniques. GANs use a, generator and discriminator network to create, high-fidelity, high-speed images, but face training instability and mode collapse. Diffusion models generate, high-quality images via iterative denoising, offering better diversity and stability but with significantly slower, computation-intensive inference.
