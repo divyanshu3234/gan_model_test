@@ -1,0 +1,10 @@
+Things that can be done to optimize the code 
+1st slow down the discriminator
+lr_D = lr_G * 0.5
+Train generator more
+for _ in range(2):
+    train_generator()
+Label smoothing
+real_labels = torch.ones(...) * 0.9
+Add noise to discriminator input
+x = x + 0.05 * torch.randn_like(x)
